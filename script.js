@@ -17,7 +17,7 @@ $(document).ready(function randomize() {
 	$("#en-word").append(words[i][1]);
 	$("#de-word").append(words[i][2]);
 	
-	$('body').click(function(){
+	$('body').on('click', function(){
 		location.reload();
 	});
 });
