@@ -18,6 +18,6 @@ $(document).ready(function randomize() {
 	$("#de-word").append(words[i][2]);
 });
 
-$('#refresh').click(function(){
+$('.center').click(function(){
 	location.reload();
 });
