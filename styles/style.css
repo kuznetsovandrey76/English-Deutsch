@@ -47,9 +47,3 @@ body, html {
   text-align: center;
   width: 5vw;
 }
-.center {
-  position: relative;
-  display: table;
-  bottom: 11vh;
-  left: 87vw;
-}

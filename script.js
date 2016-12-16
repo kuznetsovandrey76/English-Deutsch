@@ -16,8 +16,9 @@ $(document).ready(function randomize() {
 	$("#ru-word").append(words[i][0]);
 	$("#en-word").append(words[i][1]);
 	$("#de-word").append(words[i][2]);
+	
+	$('body').click(function(){
+		location.reload();
+	});
 });
 
-$('#refresh').click(function(){
-	location.reload();
-});
