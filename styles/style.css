@@ -47,9 +47,9 @@ body, html {
   text-align: center;
   width: 5vw;
 }
-img {
-  position: relative; 
-  bottom: 15vh;
-  left: 82vw;
-  width: 10vw;
+.center {
+  position: relative;
+  display: table;
+  bottom: 11vh;
+  left: 87vw;
 }
